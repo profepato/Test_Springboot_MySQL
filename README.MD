@@ -17,7 +17,7 @@ INSERT INTO usuario VALUES(NULL, 'Pato Pérez Pinto', 'pato@gmail.com');
 
 SELECT * FROM usuario;
 
-CREATE USER 'springuser'@'localhost' IDENTIDIED BY '123456';
+CREATE USER 'springuser'@'localhost' IDENTIFIED BY '123456';
 GRANT ALL ON bd_usuarios.* TO 'springuser'@'localhost';
 ```
 
