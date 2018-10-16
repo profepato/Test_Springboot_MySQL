@@ -1,4 +1,3 @@
-
 package org.prez.springmysql.model;
 
 import org.springframework.data.repository.CrudRepository;
